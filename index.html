@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Managing Your To-Do's</title>
+    <link rel="stylesheet" type="text/css" href="todos.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Let's create a list of to-do's!</h1>
+    </header>
+
+    <form id="inputForm" onsubmit="return validateForm()">
+      <p>What do you need to do?<input type="text" id="textInput" size="30"></p>
+      <p>When do you need to do it by?<input type="date" id="dateInput"></p>
+      <input id="button" type="submit" value="Add It to Your List!">
+    </form>
+
+    <table id="list">
+      <tr id="listTitles">
+        <th><em>What to do<em></th>
+        <th><em>When to do it by<em></th>
+      </tr>
+    </table>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="todos.js"></script>
+  </body>
+</html>

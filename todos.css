@@ -1,0 +1,29 @@
+header {
+  position: absolute;
+  background-color: goldenrod;
+  width: 100%;
+  text-align: center;
+}
+
+form {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+table {
+  position: relative;
+  text-align: center;
+  border-collapse: collapse;
+  top: 120px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid black;
+  width: 50%;
+}
+
+
